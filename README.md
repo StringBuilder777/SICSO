@@ -1,1 +1,2 @@
-# Sisco
+# SICSO  
+![Banner](./assets/banner.png)
