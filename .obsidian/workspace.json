@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Temas/ACL.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ACL"
+              "title": "README"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Temas/ACL.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for ACL"
+              "title": "Backlinks for README"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Temas/ACL.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from ACL"
+              "title": "Outgoing links from README"
             }
           },
           {
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Temas/ACL.md",
+                "file": "README.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of ACL"
+              "title": "Outline of README"
             }
           }
         ]
@@ -183,15 +183,16 @@
       "bases:Create new base": false
     }
   },
-  "active": "28c3bc16c36fd5d7",
+  "active": "6218fb9ab8824562",
   "lastOpenFiles": [
-    "Temas/Subnet.md",
+    "Temas/Vlans.md",
     "Temas/Redundancia.md",
+    "Ejer/Ejercicio 1.md",
     "Temas/ACL.md",
+    "Ejercicio 1.pkt",
+    "Temas/Subnet.md",
     "Temas/ruteo.md",
     "Temas/Nat.md",
-    "Temas/Vlans.md",
-    "Ejer/Ejercicio 1.md",
     "Temas",
     "README.md",
     "Ejer"
