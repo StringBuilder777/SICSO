@@ -1,41 +1,98 @@
 {
   "main": {
-    "id": "8130a5959c2d7859",
+    "id": "d5bbd2f96d1f2cd2",
     "type": "split",
     "children": [
       {
-        "id": "48097e8e8eaa1b9c",
+        "id": "49a3a08018ec9a09",
         "type": "tabs",
         "children": [
           {
-            "id": "f305d53e17d6b5e2",
+            "id": "6e94c0e60f5f44f7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Adnim/Práctica 4/Práctica 4 Configuración de password seguro y ssh.md",
+                "file": "clase 4 sep.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Práctica 4 Configuración de password seguro y ssh"
+              "title": "clase 4 sep"
+            }
+          },
+          {
+            "id": "000793cb939df711",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "clase mon 7 sep.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "clase mon 7 sep"
+            }
+          },
+          {
+            "id": "1847b5845bc0bc4f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "clase mon 7 sep.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "clase mon 7 sep"
+            }
+          },
+          {
+            "id": "2413d5144ff1a3bd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "clase 4 sep.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "clase 4 sep"
+            }
+          },
+          {
+            "id": "5ab7ce1f3d1fd432",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "clase 4 sep.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "clase 4 sep"
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "16415309229ace91",
+    "id": "8ac0e68b8467d753",
     "type": "split",
     "children": [
       {
-        "id": "adb3f9236c412576",
+        "id": "94ef457a4a92648d",
         "type": "tabs",
         "children": [
           {
-            "id": "28c3bc16c36fd5d7",
+            "id": "8684d3fdbab63034",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -50,7 +107,7 @@
             }
           },
           {
-            "id": "a8ad7fa303d3eab1",
+            "id": "6966d0b06021028f",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -67,11 +124,14 @@
             }
           },
           {
-            "id": "e53c71850184677c",
+            "id": "4d20254532af77d3",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {},
+              "state": {
+                "showSearch": false,
+                "searchQuery": ""
+              },
               "icon": "lucide-bookmark",
               "title": "Bookmarks"
             }
@@ -83,20 +143,20 @@
     "width": 300
   },
   "right": {
-    "id": "7f439da53c711cc0",
+    "id": "e09b6100df4cbc1e",
     "type": "split",
     "children": [
       {
-        "id": "9e14f0499b7aa0a5",
+        "id": "a846e1fddce8bfa1",
         "type": "tabs",
         "children": [
           {
-            "id": "da8d41adedfe5698",
+            "id": "da3fb9dd22204b62",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "clase 4 sep.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,25 +166,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for README"
+              "title": "Backlinks"
             }
           },
           {
-            "id": "5c585143edca3674",
+            "id": "b8384bd1c27e25d9",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "clase 4 sep.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from README"
+              "title": "Outgoing links"
             }
           },
           {
-            "id": "37836658adfb1d96",
+            "id": "195f8d9f65f57c50",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -139,7 +199,7 @@
             }
           },
           {
-            "id": "a235c0550bac84c2",
+            "id": "28de719306b69b3c",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -153,18 +213,18 @@
             }
           },
           {
-            "id": "5a89a90258ff1699",
+            "id": "c31377f0966c3d37",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md",
+                "file": "clase 4 sep.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of README"
+              "title": "Outline"
             }
           }
         ]
@@ -182,29 +242,17 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "bases:Create new base": false,
-      "obsidian-full-calendar:Open Full Calendar": false
+      "bases:Create new base": false
     }
   },
-  "active": "f305d53e17d6b5e2",
+  "active": "8684d3fdbab63034",
   "lastOpenFiles": [
-    "Adnim/Práctica 4/Práctica 4 configure-secure-passwords-and-ssh.pka.zip",
-    "Adnim/Práctica 4",
-    "README.md",
-    "Adnim/Práctica 4/Práctica 4 Configuración de password seguro y ssh.md",
-    "Adnim",
-    "HORARIO.md",
-    "2026-08-01.md",
-    "2026-07-26 ADMINISTRACIÓN DE REDES  .md",
-    "Ejer/Ejercicio 1.md",
-    "Temas/Vlans.md",
-    "Temas/Subnet.md",
-    "Temas/ACL.md",
-    "Temas/Redundancia.md",
-    "Ejercicio 1.pkt",
-    "Temas/ruteo.md",
-    "Temas/Nat.md",
-    "Temas",
-    "Ejer"
+    "clase mon 7 sep.md",
+    "Gestion de sof.md",
+    "GIS.md",
+    "Untitled.md",
+    "Welcome.md",
+    "clase 4 sep.md",
+    "Untitled"
   ]
 }

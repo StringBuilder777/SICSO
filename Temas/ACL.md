@@ -1,0 +1,1 @@
+frecuancia y dependencia 
