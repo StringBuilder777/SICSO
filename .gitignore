@@ -1,0 +1,19 @@
+# macOS
+.DS_Store
+
+# Obsidian local state
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache/
+
+# Cisco Packet Tracer temporary and backup files
+*.pkt~
+*.pkz~
+*.pka~
+*.bak
+*.tmp
+
+# Keep Packet Tracer practice files
+!*.pkt
+!*.pka
+!*.pkz
