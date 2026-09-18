@@ -1,7 +1,7 @@
 
-![[Screenshot 2026-09-18 at 9.42.28 a.m..png]]
+![[Evidencias/Screenshot 2026-09-18 at 9.42.28 a.m..png]]
 
-![[Screenshot 2026-09-18 at 9.46.48 a.m..png]]
+![[Evidencias/Screenshot 2026-09-18 at 9.46.48 a.m..png]]
 
 ----
 **Intructions**
@@ -9,11 +9,11 @@
 ***Part 1: Configure Basic Security on the Router***
 
 a.     Configure IP addressing on **PCA** according to the Addressing Table.
-![[Screenshot 2026-09-18 at 9.57.17 a.m..png]]
+![[Evidencias/Screenshot 2026-09-18 at 9.57.17 a.m..png]]
 
 b.     Console into **RTA** from the Terminal on PCA.
-![[Screenshot 2026-09-18 at 10.02.38 a.m..png]]
-![[Screenshot 2026-09-18 at 10.03.47 a.m..png]]
+![[Evidencias/Screenshot 2026-09-18 at 10.02.38 a.m..png]]
+![[Evidencias/Screenshot 2026-09-18 at 10.03.47 a.m..png]]
 c.     Configure the hostname as **RTA**
 ```bash
 en
@@ -59,7 +59,7 @@ k.     Generate 1024-bit RSA keys.
 ```bash
 cry k g r
 ```
-![[Screenshot 2026-09-18 at 10.28.04 a.m..png]]
+![[Evidencias/Screenshot 2026-09-18 at 10.28.04 a.m..png]]
 l.      Block anyone for three minutes who fails to log in after four attempts within a two-minute period.
 ```bash
 login block-for 180 attempts 4 within 120
@@ -84,8 +84,8 @@ do wr
 **Part 2: Configure Basic Security on the Switch**
 Configure switch **SW1** with corresponding security measures. Refer to the configuration steps on the router if you need additional assistance.
 a.     Console into **SW1** from the Terminal on PCA.
-![[Screenshot 2026-09-18 at 10.46.36 a.m..png]]
-![[Screenshot 2026-09-18 at 10.47.32 a.m..png]]
+![[Evidencias/Screenshot 2026-09-18 at 10.46.36 a.m..png]]
+![[Evidencias/Screenshot 2026-09-18 at 10.47.32 a.m..png]]
 b.     Configure the hostname as **SW1**.
 ```bash
 en
@@ -131,7 +131,7 @@ k.     Generate 1024-bit RSA keys.
 ```bash
 cry k g r
 ```
-![[Screenshot 2026-09-18 at 11.27.09 a.m..png]]
+![[Evidencias/Screenshot 2026-09-18 at 11.27.09 a.m..png]]
 
 l.      Configure all VTY lines for SSH access and use the local user profiles for authentication.
 ```bash
@@ -151,4 +151,4 @@ do wr
 ```
 
 ---
-![[Screenshot 2026-09-18 at 11.33.56 a.m..png]]
+![[Evidencias/Screenshot 2026-09-18 at 11.33.56 a.m..png]]
