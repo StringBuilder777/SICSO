@@ -4,11 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "48097e8e8eaa1b9c",
+        "id": "37effce475bdfd81",
         "type": "tabs",
         "children": [
           {
-            "id": "f305d53e17d6b5e2",
+            "id": "7ddc8aa49f530f9a",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Adnim/Practica Fisica 1/Práctica 13 Seguridad de puerto básica - física.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "Práctica 13 Seguridad de puerto básica - física"
+            }
+          },
+          {
+            "id": "637447132f95ae26",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -21,7 +33,8 @@
               "title": "Práctica 4 Configuración de password seguro y ssh"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -41,7 +54,7 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false,
+                "autoReveal": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
@@ -186,38 +199,43 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "f305d53e17d6b5e2",
+  "active": "637447132f95ae26",
   "lastOpenFiles": [
+    "Screenshot 2026-09-18 at 12.24.54 p.m..png",
+    "Screenshot 2026-10-18 at 10.51.17 p.m..png",
+    "README.md",
+    "Untitled.base",
+    "Temas/Vlans.md",
+    "Temas/Subnet.md",
+    "Temas/ruteo.md",
+    "Temas/Redundancia.md",
+    "Temas/ACL.md",
+    "Temas/Nat.md",
+    "Ejer/Ejercicio 1.md",
+    "Adnim/Practica Fisica 1/Practica 12 y 13(fisica).md",
+    "Adnim/Practica Fisica 1/Práctica 13 Seguridad de puerto básica - física.pdf",
+    "Adnim/Practica 9/Practica 9.md",
+    "assets/banner.png",
+    "Adnim/Práctica 4/Práctica 4 Configuración de password seguro y ssh.md",
+    "Adnim/Practica Fisica 1",
+    "Adnim/Practica 9/Evidencias/Prac9_1.png",
+    "Adnim/Práctica 4/Evidencias/Screenshot 2026-09-18 at 10.28.04 a.m..png",
+    "Adnim/Practica 9/Evidencias",
+    "Adnim/Practica 5/Practica 67.md",
+    "Adnim/Practica 9/Práctica 9 Configuración de ACL.pka.zip",
+    "Adnim/Practica 9",
+    "Adnim/Practica 5/Evidencias",
+    "Adnim/Practica 5",
+    "Adnim/Untitled.md",
     "Adnim/Práctica 4/Evidencias/Screenshot 2026-09-18 at 9.57.17 a.m..png",
     "Adnim/Práctica 4/Evidencias/Screenshot 2026-09-18 at 9.46.48 a.m..png",
     "Adnim/Práctica 4/Evidencias/Screenshot 2026-09-18 at 9.42.28 a.m..png",
     "Adnim/Práctica 4/Evidencias/Screenshot 2026-09-18 at 11.33.56 a.m..png",
     "Adnim/Práctica 4/Evidencias/Screenshot 2026-09-18 at 11.27.09 a.m..png",
-    "Adnim/Práctica 4/Evidencias/Screenshot 2026-09-18 at 10.47.32 a.m..png",
-    "Adnim/Práctica 4/Evidencias/Screenshot 2026-09-18 at 10.46.36 a.m..png",
-    "Adnim/Práctica 4/Evidencias/Screenshot 2026-09-18 at 10.28.04 a.m..png",
-    "Adnim/Práctica 4/Evidencias/Screenshot 2026-09-18 at 10.03.47 a.m..png",
-    "Adnim/Práctica 4/Evidencias/Screenshot 2026-09-18 at 10.02.38 a.m..png",
     "Adnim/Práctica 4/Evidencias",
-    "assets/banner.png",
-    "Adnim/Práctica 4/Práctica 4 Configuración de password seguro y ssh.md",
-    "Untitled.base",
     "Adnim/Práctica 4/Práctica 4 configure-secure-passwords-and-ssh.pka.zip",
-    "Adnim/Práctica 4",
-    "README.md",
-    "Adnim",
     "HORARIO.md",
     "2026-08-01.md",
-    "2026-07-26 ADMINISTRACIÓN DE REDES  .md",
-    "Ejer/Ejercicio 1.md",
-    "Temas/Vlans.md",
-    "Temas/Subnet.md",
-    "Temas/ACL.md",
-    "Temas/Redundancia.md",
-    "Ejercicio 1.pkt",
-    "Temas/ruteo.md",
-    "Temas/Nat.md",
-    "Temas",
-    "Ejer"
+    "2026-07-26 ADMINISTRACIÓN DE REDES  .md"
   ]
 }
