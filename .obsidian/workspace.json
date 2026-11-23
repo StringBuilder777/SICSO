@@ -4,37 +4,38 @@
     "type": "split",
     "children": [
       {
-        "id": "37effce475bdfd81",
+        "id": "baf8af64d3819b37",
         "type": "tabs",
         "children": [
           {
-            "id": "7ddc8aa49f530f9a",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Adnim/Practica Fisica 1/Práctica 13 Seguridad de puerto básica - física.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "Práctica 13 Seguridad de puerto básica - física"
-            }
-          },
-          {
-            "id": "637447132f95ae26",
+            "id": "2a2bb8d5d4669acd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Adnim/Práctica 4/Práctica 4 Configuración de password seguro y ssh.md",
+                "file": "Proyecto Final/Proyecto Final.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Práctica 4 Configuración de password seguro y ssh"
+              "title": "Proyecto Final"
+            }
+          },
+          {
+            "id": "b5a0e30090617863",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Adnim/Tarea 4 Tunnel GRE/Tarea 4 Tunnel GRE.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Tarea 4 Tunnel GRE"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -199,8 +200,26 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "637447132f95ae26",
+  "active": "28c3bc16c36fd5d7",
   "lastOpenFiles": [
+    "Proyecto Final/Evidencia/RV.png",
+    "Proyecto Final/Evidencia/RVINT.png",
+    "Proyecto Final/Proyecto Final.md",
+    "Proyecto Final/Evidencia/ROUTER_VERSION.png",
+    "Proyecto Final/Evidencia",
+    "Adnim/Tarea 4 Tunnel GRE/Tarea 4 Tunnel GRE.md",
+    "Adnim/Práctica 19/Práctica 19.md",
+    "Proyecto Final",
+    "Adnim/Proyecto Final/Proyecto final Sept 2026.pdf",
+    "Adnim/Práctica 19",
+    "Adnim/Practica 9/Practica 9.md",
+    "Adnim/Practica 9/Evidencias/Prac9_1.png",
+    "Adnim/Tarea 4 Tunnel GRE",
+    "Adnim/Proyecto Final/Proyecto final.md",
+    "Adnim/Untitled.md",
+    "Adnim/Proyecto Final",
+    "Adnim/Practica Fisica 1/Práctica 13 Seguridad de puerto básica - física.pdf",
+    "Adnim/Práctica 4/Práctica 4 Configuración de password seguro y ssh.md",
     "Screenshot 2026-09-18 at 12.24.54 p.m..png",
     "Screenshot 2026-10-18 at 10.51.17 p.m..png",
     "README.md",
@@ -213,27 +232,14 @@
     "Temas/Nat.md",
     "Ejer/Ejercicio 1.md",
     "Adnim/Practica Fisica 1/Practica 12 y 13(fisica).md",
-    "Adnim/Practica Fisica 1/Práctica 13 Seguridad de puerto básica - física.pdf",
-    "Adnim/Practica 9/Practica 9.md",
     "assets/banner.png",
-    "Adnim/Práctica 4/Práctica 4 Configuración de password seguro y ssh.md",
     "Adnim/Practica Fisica 1",
-    "Adnim/Practica 9/Evidencias/Prac9_1.png",
     "Adnim/Práctica 4/Evidencias/Screenshot 2026-09-18 at 10.28.04 a.m..png",
     "Adnim/Practica 9/Evidencias",
     "Adnim/Practica 5/Practica 67.md",
-    "Adnim/Practica 9/Práctica 9 Configuración de ACL.pka.zip",
-    "Adnim/Practica 9",
-    "Adnim/Practica 5/Evidencias",
-    "Adnim/Practica 5",
-    "Adnim/Untitled.md",
     "Adnim/Práctica 4/Evidencias/Screenshot 2026-09-18 at 9.57.17 a.m..png",
     "Adnim/Práctica 4/Evidencias/Screenshot 2026-09-18 at 9.46.48 a.m..png",
     "Adnim/Práctica 4/Evidencias/Screenshot 2026-09-18 at 9.42.28 a.m..png",
-    "Adnim/Práctica 4/Evidencias/Screenshot 2026-09-18 at 11.33.56 a.m..png",
-    "Adnim/Práctica 4/Evidencias/Screenshot 2026-09-18 at 11.27.09 a.m..png",
-    "Adnim/Práctica 4/Evidencias",
-    "Adnim/Práctica 4/Práctica 4 configure-secure-passwords-and-ssh.pka.zip",
     "HORARIO.md",
     "2026-08-01.md",
     "2026-07-26 ADMINISTRACIÓN DE REDES  .md"
