@@ -9,7 +9,7 @@ c1900-universalk9-mz.SPA.151-1.M4.bin
 c1900-universalk9-mz.SPA.155-3.M4a.bin
 ```
 
-![Router para actualizar la version](Evidencia/RV.PNG)
+![Router para actualizar la version](Evidencia/RV.png)
 
 ### version
 **Comando**
@@ -41,7 +41,7 @@ Mask -> 255.255.255.0
 Gateway -> 67.67.67.1
 ```
 
-![Router para actualizar la version](Evidencia/RVINT.PNG)
+![Router para actualizar la version](Evidencia/RVINT.png)
 
 **Eliminar la version vieja**
 ```bash
