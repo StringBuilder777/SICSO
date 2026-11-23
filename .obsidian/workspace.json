@@ -11,14 +11,12 @@
             "id": "2a2bb8d5d4669acd",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "Proyecto Final/Proyecto Final.md",
-                "mode": "source",
-                "source": false
+                "file": "Proyecto Final/Proyecto final Sept 2026.pdf"
               },
-              "icon": "lucide-file",
-              "title": "Proyecto Final"
+              "icon": "lucide-file-text",
+              "title": "Proyecto final Sept 2026"
             }
           },
           {
@@ -200,11 +198,12 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "28c3bc16c36fd5d7",
+  "active": "2a2bb8d5d4669acd",
   "lastOpenFiles": [
+    "Proyecto Final/Proyecto Final.md",
+    "Proyecto Final/Proyecto final Sept 2026.pdf",
     "Proyecto Final/Evidencia/RV.png",
     "Proyecto Final/Evidencia/RVINT.png",
-    "Proyecto Final/Proyecto Final.md",
     "Proyecto Final/Evidencia/ROUTER_VERSION.png",
     "Proyecto Final/Evidencia",
     "Adnim/Tarea 4 Tunnel GRE/Tarea 4 Tunnel GRE.md",
@@ -235,11 +234,9 @@
     "assets/banner.png",
     "Adnim/Practica Fisica 1",
     "Adnim/Práctica 4/Evidencias/Screenshot 2026-09-18 at 10.28.04 a.m..png",
-    "Adnim/Practica 9/Evidencias",
     "Adnim/Practica 5/Practica 67.md",
     "Adnim/Práctica 4/Evidencias/Screenshot 2026-09-18 at 9.57.17 a.m..png",
     "Adnim/Práctica 4/Evidencias/Screenshot 2026-09-18 at 9.46.48 a.m..png",
-    "Adnim/Práctica 4/Evidencias/Screenshot 2026-09-18 at 9.42.28 a.m..png",
     "HORARIO.md",
     "2026-08-01.md",
     "2026-07-26 ADMINISTRACIÓN DE REDES  .md"
