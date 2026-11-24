@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "Proyecto Final/Proyecto Final.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "Proyecto Final"
             }
           }
         ]
@@ -80,7 +80,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "7f439da53c711cc0",
@@ -188,10 +189,10 @@
   },
   "active": "b5a0e30090617863",
   "lastOpenFiles": [
+    "README.md",
     "Proyecto Final/Proyecto Final.md",
     "Proyecto Final/Proyecto final Sept 2026.pdf",
     "Proyecto Final/README.md",
-    "README.md",
     "Adnim/Proyecto Final/Proyecto final.md",
     "Proyecto Final/Evidencia/Proyecto final Sept 2026.pdf",
     "Adnim/Tarea 4 Tunnel GRE/Tarea 4 Tunnel GRE.md",
