@@ -231,6 +231,144 @@ ex
 ```
 
 **Routeo**
+R1
+```bash
+en
+conf t
+int l 1 
+ip add 1.1.1.1 255.255.255.255
+no sh
+ex
+rou e 67
+no auto
+ei r 1.1.1.1
+net 10.10.0.0 0.0.0.3
+net 192.168.5.0 0.0.0.255
+pas g0/0
+ex
+```
+R3
+```bash
+en
+conf t
+int l 3
+ip add 3.3.3.3 255.255.255.255
+no sh
+ex
+rou e 67
+no auto
+ei r 3.3.3.3
+net 10.10.0.0 0.0.0.3
+net 10.10.1.0 0.0.0.3
+ex
+```
+R2
+```bash
+en
+conf t
+ip add 2.2.2.2 255.255.255.255
+no sh
+ex
+rou e 67
+no au
+ei ro 2.2.2.2
+net 10.10.0.0 0.0.0.3
+net 10.10.2.0 0.0.0.3
+net 192.168.0.0 0.0.0.255
+net 192.168.10.0 0.0.0.255
+pass g0/0
+pass g0/1
+ex
+```
+
+R5
+```bash
+en 
+conf t
+int l 5 
+ip add 5.5.5.5 255.255.255.255
+no sh
+ex
+ei r 5.5.5.5
+no au
+net 10.10.2.0 0.0.0.3
+net 10.10.3.0 0.0.0.3
+net 10.10.4.0 0.0.0.3
+ex
+```
+
+R4
+```bash
+en
+conf t
+int l 4
+ip add 4.4.4.4 255.255.255.255
+no sh
+ex
+rou e 67
+ei r 4.4.4.4
+no au
+net 10.10.3.0 0.0.0.3
+net 192.168.15.0 0.0.0.255
+pass g0/0
+ex
+```
+
+R6
+```bash
+en
+conf t
+int l 6
+ip add 6.6.6.6 255.255.255.255
+no sh 
+ex
+rou e 67
+ei r 6.6.6.6
+no au 
+net 10.10.4.0 0.0.0.3
+net 10.10.5.0 0.0.0.3
+net 209.180.10.0 0.0.0.255
+pass g0/0
+ex
+
+```
+
+R7
+```bash
+en 
+conf t
+int l 7
+ip add 7.7.7.7 255.255.255.255
+no sh 
+ex
+rou e 67
+ei r 7.7.7.7
+pass G0/0
+net 10.10.5.0 0.0.0.3
+net 10.10.6.0 0.0.0.3
+net 192.168.30.0
+ex
+```
+
+R8
+```bash
+en
+conf t
+int l 8
+ip add 8.8.8.8 255.255.255.255
+no sh 
+ex
+rou e 67
+ei r 8.8.8.8
+no au
+net 10.10.6.0 0.0.0.3
+net 192.168.40.0 0.0.0.255
+pass g0/0
+ex
+```
+
+
+
 
 
 
