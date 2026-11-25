@@ -152,7 +152,7 @@ R5
 ```bash
 en
 conf t
-hos R6
+hos R5
 int s0/1/0
 ip add 10.10.4.2 255.255.255.252
 cl r 2000000
@@ -290,6 +290,7 @@ int l 5
 ip add 5.5.5.5 255.255.255.255
 no sh
 ex
+rou ei 67
 ei r 5.5.5.5
 no au
 net 10.10.2.0 0.0.0.3
