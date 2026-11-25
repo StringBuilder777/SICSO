@@ -266,6 +266,7 @@ R2
 ```bash
 en
 conf t
+int l 2
 ip add 2.2.2.2 255.255.255.255
 no sh
 ex
@@ -369,9 +370,23 @@ ex
 
 
 
+**sysLOG**
+```bash
+en
+show clock
+clock s 12:36:00 25 nov 2026
+conf t
+ser tim log da m
+logg h 192.168.40.10
+logg tr de
+do mkdir flash:ips
+ip ips 
+ip ips c l flash:ips
+ip ips no l
+ip ips na R8-IPS
 
-
-
+```
 
 ```bash
+
 ```

@@ -20,6 +20,18 @@
               "icon": "lucide-file",
               "title": "Proyecto Final"
             }
+          },
+          {
+            "id": "62292ef733d0da54",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Proyecto Final/Proyecto final Sept 2026.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "Proyecto final Sept 2026"
+            }
           }
         ]
       }
@@ -189,9 +201,9 @@
   },
   "active": "b5a0e30090617863",
   "lastOpenFiles": [
-    "README.md",
-    "Proyecto Final/Proyecto Final.md",
     "Proyecto Final/Proyecto final Sept 2026.pdf",
+    "Proyecto Final/Proyecto Final.md",
+    "README.md",
     "Proyecto Final/README.md",
     "Adnim/Proyecto Final/Proyecto final.md",
     "Proyecto Final/Evidencia/Proyecto final Sept 2026.pdf",
