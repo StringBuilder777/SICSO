@@ -577,8 +577,105 @@ access-group OUTSIDE_DMZ in interface outside
 
 ```
 
+**IPSec**
+R2
+```bash
+en
+conf t
+
+cry is p 10
+ en 3
+ h m
+ a p
+ g 5
+ l 72000
+ ex
+
+crypto is k Llave123 a 10.10.3.2
+acc 110 p ip 192.168.10.0 0.0.0.255 192.168.15.0 0.0.0.255
+
+cry ipsec transform-set VPN-R2-R4 esp-aes esp-sha-hmac
+
+cry m MAPA-VPN 10 i
+ s pe 10.10.3.2
+ s t VPN-R2-R4
+ m a 110
+ ex
+
+int s0/0/0
+ cry m MAPA-VPN
+ ex
+
+```
+R4
+```bash
+en
+conf t
+
+cry is p 10
+ en 3
+ h m
+ a p
+ g 5
+ l 72000
+ ex
+
+cry is k Llave123 a 10.10.2.2
+
+acc 110 p ip 192.168.15.0 0.0.0.255 192.168.10.0 0.0.0.255
+
+cry ipsec transform-set VPN-R2-R4 esp-aes esp-sha-hmac
+
+cry map MAPA-VPN 10 ipsec-isakmp
+ s pe 10.10.2.2
+ s t VPN-R2-R4
+ m a 110
+ ex
+
+int s0/0/1
+ cry m MAPA-VPN
+ ex
+
+```
+
+verificar 
+
+```bash
+show cry isa p
+show cry isa sa
+show cry ipsec sa
+show cry m
+show acc 110
+```
+
+**Tunnel GRE**
+R1
+```bash
+en
+conf t
+int t 67
+ip add 172.16.20.1 255.255.255.252
+t d 10.10.1.1
+t s s0/0/0
+ex
+ip route 192.168.0.0 255.255.255.0 172.16.20.2
+```
+R2
+```bash
+en
+conf t
+int t 67
+ip add 172.16.20.2 255.255.255.252
+t d 10.10.0.2
+t s s0/0/1
+ex
+
+ip route 192.168.5.0 255.255.255.0 172.16.20.1
+```
 
 
 ```bash
 
 ```
+
+
