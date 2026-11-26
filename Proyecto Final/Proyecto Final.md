@@ -679,3 +679,28 @@ ip route 192.168.5.0 255.255.255.0 172.16.20.1
 ```
 
 
+pregunta de examen 
+
+```bash
+en
+conf t 
+ena se ADMON_R7
+us admin pri 15 s ADMON_R7
+aa n
+aa authentication l d local
+end
+ex
+
+
+en view
+pars v VISTA_R7
+co ex in configure terminal
+co ex in show running-config
+co ex in all show ip eigrp
+co conf in router eigrp
+
+
+ena view VISTA_R7
+
+```
+

@@ -106,8 +106,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "7f439da53c711cc0",
@@ -215,14 +214,16 @@
   },
   "active": "b5a0e30090617863",
   "lastOpenFiles": [
-    "Proyecto Final/Proyecto final Sept 2026.pdf",
-    "Proyecto Final/Proyecto Final.md",
-    "Adnim/Tarea 4 Tunnel GRE/Tarea 4 Tunnel GRE.md",
+    "Proyecto Final/Evidencia/Proyecto final Sept 2026.pdf",
     "Adnim/Práctica 4/Práctica 4 Configuración de password seguro y ssh.md",
+    "Adnim/Practica 9/Practica 9.md",
+    "Adnim/Practica 5/Practica 67.md",
+    "Proyecto Final/Proyecto Final.md",
+    "Proyecto Final/Proyecto final Sept 2026.pdf",
+    "Adnim/Tarea 4 Tunnel GRE/Tarea 4 Tunnel GRE.md",
     "README.md",
     "Proyecto Final/README.md",
     "Adnim/Proyecto Final/Proyecto final.md",
-    "Proyecto Final/Evidencia/Proyecto final Sept 2026.pdf",
     "Proyecto Final/Evidencia/RV.png",
     "Proyecto Final/Evidencia/RVINT.png",
     "Proyecto Final/Evidencia/ROUTER_VERSION.png",
@@ -230,7 +231,6 @@
     "Adnim/Práctica 19/Práctica 19.md",
     "Proyecto Final",
     "Adnim/Práctica 19",
-    "Adnim/Practica 9/Practica 9.md",
     "Adnim/Practica 9/Evidencias/Prac9_1.png",
     "Adnim/Tarea 4 Tunnel GRE",
     "Adnim/Untitled.md",
@@ -250,7 +250,6 @@
     "assets/banner.png",
     "Adnim/Practica Fisica 1",
     "Adnim/Práctica 4/Evidencias/Screenshot 2026-09-18 at 10.28.04 a.m..png",
-    "Adnim/Practica 5/Practica 67.md",
     "Adnim/Práctica 4/Evidencias/Screenshot 2026-09-18 at 9.57.17 a.m..png",
     "Adnim/Práctica 4/Evidencias/Screenshot 2026-09-18 at 9.46.48 a.m..png",
     "HORARIO.md",
