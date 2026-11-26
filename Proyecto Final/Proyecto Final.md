@@ -101,6 +101,7 @@ R8
 en
 conf t
 hos R8
+no ip domain-l
 int g0/0
 ip add 192.168.40.1 255.255.255.0
 no sh
@@ -117,6 +118,7 @@ R7
 en
 conf t
 hos R7
+no ip domain-l
 int g0/0
 ip add 192.168.30.1 255.255.255.0
 no sh
@@ -136,6 +138,7 @@ R6
 en
 conf t
 Hos R6
+no ip domain-l
 int s0/0/1
 ip add 10.10.5.2 255.255.255.252
 no sh
@@ -153,6 +156,7 @@ R5
 en
 conf t
 hos R5
+no ip domain-l
 int s0/1/0
 ip add 10.10.4.2 255.255.255.252
 cl r 2000000
@@ -173,6 +177,7 @@ R4
 en 
 conf t
 hos R4
+no ip domain-l
 int s0/0/1
 ip add 10.10.3.2 255.255.255.252
 no sh
@@ -186,6 +191,7 @@ R2
 en
 conf t
 hos R2
+no ip domain-l
 int s0/0/0
 ip add 10.10.2.2 255.255.255.252
 no sh
@@ -206,6 +212,7 @@ R3
 en
 conf t
 hos R3
+no ip domain-l
 int s0/0/1
 ip add 10.10.1.2 255.255.255.252
 cl r 2000000
@@ -221,6 +228,7 @@ R1
 en
 conf t
 hos R1
+no ip domain-l
 int s0/0/0
 ip add 10.10.0.2 255.255.255.252
 no sh
@@ -452,6 +460,7 @@ SW4
 en
 conf t
 hos SW4
+no ip domain-l
 int f0/6
 sw m a 
 sw po
