@@ -416,7 +416,6 @@ exit
 interface g0/0
 ip ips R8-IPS out
 exit
-configure terminal
 ip ips signature-definition
 signature 2004 0
 status
@@ -441,6 +440,43 @@ como deberia funcionar
 *Mar 01, 00:11:44.1111: %IPS-4-SIGNATURE: Sig:2004 Subsig:0 Sev:25 [192.168.0.10 -> 192.168.40.10:0] RiskRating:25
 *Mar 01, 00:11:50.1111: %IPS-4-SIGNATURE: Sig:2004 Subsig:0 Sev:25 [192.168.0.10 -> 192.168.40.10:0] RiskRating:25
 ```
+
+**SEGURIDAD EN CAPA 2**
+2.
+```text
+Configure la seguridad de puerto en SW4, en el puerto fa0/6 configure la seguridad de puerto para que solo acepte una dirección MAC. En el puerto fa0/5 configure la seguridad de puerto para que solo acepte la dirección MAC de la PC-E.
+```
+
+SW4
+```bash
+en
+conf t
+hos SW4
+int f0/6
+sw m a 
+sw po
+sw por mac s
+sw por max 1
+sw por v s 
+int f0/5
+sw m a
+sw po
+sw por mac 0002.17C6.6891
+sw por max 1
+sw por v s
+
+```
+
+comandos para verificar 
+```bash
+sh por int f0/5
+sh por a
+```
+
+
+
+
+
 
 ```bash
 
