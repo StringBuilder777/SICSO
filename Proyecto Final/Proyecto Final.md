@@ -482,8 +482,100 @@ sh por int f0/5
 sh por a
 ```
 
+**ASA**
+```bash
+en
+conf t
+hos ASA0
+domain-name laboratorio.local
+ena pass cisco
+passwd class
+conf t
 
+interface vlan 1
+ nameif inside
+ security-level 100
+ ip address 192.168.20.1 255.255.255.0
+ no sh
+ ex
 
+interface vlan 2
+ nameif outside
+ security-level 0
+ ip address 209.180.10.2 255.255.255.0
+ no sh
+ ex
+
+interface vlan 3
+ no forward interface vlan 1
+ nameif dmz
+ security-level 50
+ ip address 192.168.25.1 255.255.255.0
+ no sh
+ ex
+
+interface ethernet0/0
+ switchport access vlan 2
+ no sh
+ ex
+
+interface ethernet0/1
+ switchport access vlan 1
+ no sh
+ ex
+
+interface ethernet0/2
+ switchport access vlan 3
+ no sh
+ ex
+
+route outside 0.0.0.0 0.0.0.0 209.180.10.1
+
+object network RED_INSIDE
+ subnet 192.168.20.0 255.255.255.0
+ nat (inside,outside) dynamic interface
+ ex
+ 
+conf t
+class-map inspection_default
+ match default-inspection-traffic
+ exit
+
+policy-map global_policy
+ class inspection_default
+  inspect icmp
+  exit
+ exit
+conf t
+service-policy global_policy global
+
+int vlan1
+ip add 192.168.20.1 255.255.255.0
+ex
+dhcpd add 192.168.20.100-192.168.20.130 in
+dhcpd en in
+
+username admin pass class privilege 15
+aaa authentication ssh console LOCAL
+aaa authentication enable console LOCAL
+
+crypto key generate rsa modulus 1024
+ssh version 2
+ssh timeout 5
+
+ssh 192.168.20.0 255.255.255.0 in
+
+object network SERVIDOR_WEB
+ host 192.168.25.10
+ nat (dmz,outside) static 209.180.10.3
+ exit
+ conf t
+ 
+access-list OUTSIDE_DMZ extended permit tcp any host 192.168.25.10 eq 80
+access-list OUTSIDE_DMZ extended permit tcp any host 192.168.25.10 eq 443
+access-group OUTSIDE_DMZ in interface outside
+
+```
 
 
 
