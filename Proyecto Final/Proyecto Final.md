@@ -372,10 +372,31 @@ ex
 
 
 **sysLOG**
+si no aparece lo del syslog
+```bash
+license boot module c1900 technology-package securityk9
+```
+confirmar que esta activo 
+```bash
+do sh ver | sec Tec
+```
+
+```text
+Technical Support: http://www.cisco.com/techsupport
+
+Technology Package License Information for Module:'c1900'
+
+Technology Technology-package Technology-package
+
+Current Type Next reboot
+```
+
+con el current se confirma que funcioan el ips
+
 ```bash
 en
-show clock
-clock s 12:36:00 25 nov 2026
+sh clo
+clo s 12:36:00 25 nov 2026
 conf t
 ser tim log da m
 logg h 192.168.40.10
@@ -385,7 +406,40 @@ ip ips
 ip ips c l flash:ips
 ip ips no l
 ip ips na R8-IPS
+ip ips signature-category
+category all
+retired true
+exit
+category ios_ips basic
+retired false
+exit
+interface g0/0
+ip ips R8-IPS out
+exit
+configure terminal
+ip ips signature-definition
+signature 2004 0
+status
+retired false
+enabled true
+exit
+engine
+event-action produce-alert
+event-action deny-packet-inline
+exit
+exit
+exit
+```
+como deberia funcionar 
 
+```text
+*Mar 01, 00:10:15.1010: %IPS-4-SIGNATURE: Sig:2004 Subsig:0 Sev:25 [192.168.0.10 -> 192.168.40.10:0] RiskRating:25
+*Mar 01, 00:10:21.1010: %IPS-4-SIGNATURE: Sig:2004 Subsig:0 Sev:25 [192.168.0.10 -> 192.168.40.10:0] RiskRating:25
+*Mar 01, 00:10:27.1010: %IPS-4-SIGNATURE: Sig:2004 Subsig:0 Sev:25 [192.168.0.10 -> 192.168.40.10:0] RiskRating:25
+*Mar 01, 00:10:33.1010: %IPS-4-SIGNATURE: Sig:2004 Subsig:0 Sev:25 [192.168.0.10 -> 192.168.40.10:0] RiskRating:25
+*Mar 01, 00:11:38.1111: %IPS-4-SIGNATURE: Sig:2004 Subsig:0 Sev:25 [192.168.0.10 -> 192.168.40.10:0] RiskRating:25
+*Mar 01, 00:11:44.1111: %IPS-4-SIGNATURE: Sig:2004 Subsig:0 Sev:25 [192.168.0.10 -> 192.168.40.10:0] RiskRating:25
+*Mar 01, 00:11:50.1111: %IPS-4-SIGNATURE: Sig:2004 Subsig:0 Sev:25 [192.168.0.10 -> 192.168.40.10:0] RiskRating:25
 ```
 
 ```bash
